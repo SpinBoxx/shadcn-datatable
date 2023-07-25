@@ -1,43 +1,30 @@
 # Informations sur le projet 
 
 - Template Nextjs de base
+- Contient le framework CSS [TailwindCSS](https://tailwindcss.com/)
+- Contient une librarie d'icone [Lucide react](https://lucide.dev/)
 - Contient prettier avec un configuration de base ainsi qu'un plugin Tailwindcss pour formatter les classes Tailwindcss
 - Contient également eslint avec une configuration de base
 - Contient une bdd Prisma avec 2 entités de base User et Post
-  - Lancer une migration après une modification des schemas : npx prisma migrate dev --name <nom_de_la_migration> [`Documentation officielle`](https://www.prisma.io/docs/getting-started/quickstart).
-
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
+  - Lancer une migration après une modification des schemas :
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npx prisma generate
+# et ensuite
+npx prisma db push
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Commencer
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Cloner le projet
+2. Setup l'origin du projet avec les commandes suivantes :
+```bash
+# Pour voir l'origin actuelle du projet
+git remote -v
+# Pour supprimer l'origin actuelle du projet
+git remote remove origin
+# Pour ajouter l'origin de votre futur projet
+git remote add origin <url_de_votre_projet_git>
+```
+3. npm install
+4. npm run dev
+5. Ouvrez [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat
