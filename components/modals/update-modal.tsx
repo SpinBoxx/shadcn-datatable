@@ -18,7 +18,6 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { useUpdateModal } from "@/hooks/use-update-modal";
 import { useForm } from "react-hook-form";
 import * as z from "zod";

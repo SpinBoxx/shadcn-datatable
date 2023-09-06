@@ -23,7 +23,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { DataTablePagination } from "@/app/(routes)/settings/components/datatable-pagination";
+import { DataTablePagination } from "@/app/(routes)/administration/components/datatable-pagination";
 import { useState } from "react";
 import { DataTableToolbar } from "./datatable-toolbar";
 import { FilterColumnType } from "./columns";

@@ -7,8 +7,6 @@ import { useParams, usePathname } from "next/navigation";
 import { HTMLAttributes } from "react";
 
 const MainNav = ({ className, ...props }: HTMLAttributes<HTMLElement>) => {
-  const pathname = usePathname();
-  const params = useParams();
   const routes = useRoutes();
   return (
     <nav className={cn("flex items-center gap-x-4 lg:space-x-4", className)}>

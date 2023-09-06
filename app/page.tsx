@@ -8,21 +8,21 @@ export default function Home() {
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-2">
           <CardTitle className="text-sm font-medium">Total objets</CardTitle>
-          <EuroIcon className="text-muted-foreground h-6 w-6" />
+          <EuroIcon className="h-6 w-6 text-muted-foreground" />
         </CardHeader>
         <CardContent>{filters.length}</CardContent>
       </Card>
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-2">
           <CardTitle className="text-sm font-medium">Total objets</CardTitle>
-          <EuroIcon className="text-muted-foreground h-6 w-6" />
+          <EuroIcon className="h-6 w-6 text-muted-foreground" />
         </CardHeader>
         <CardContent>{filters.length}</CardContent>
       </Card>
       <Card>
         <CardHeader className="flex flex-row items-center justify-between space-y-2">
           <CardTitle className="text-sm font-medium">Total objets</CardTitle>
-          <EuroIcon className="text-muted-foreground h-6 w-6" />
+          <EuroIcon className="h-6 w-6 text-muted-foreground" />
         </CardHeader>
         <CardContent>{filters.length}</CardContent>
       </Card>

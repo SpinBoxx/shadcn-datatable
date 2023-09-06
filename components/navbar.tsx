@@ -8,7 +8,7 @@ const Navbar = async () => {
     <div className="border-b">
       <Container>
         <div className="flex h-16 items-center">
-          <Link href="/">Admin</Link>
+          <Link href="/">Shadcn-datatable</Link>
           <div>
             <MainNav className="mx-6" />
           </div>

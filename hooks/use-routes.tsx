@@ -6,10 +6,10 @@ const useRoutes = () => {
 
   return [
     {
-      label: "Settings",
-      href: "/settings",
+      label: "Administration",
+      href: "/administration",
       icon: Settings,
-      active: pathname === "/settings",
+      active: pathname === "/administration",
     },
   ];
 };
