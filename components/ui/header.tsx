@@ -3,13 +3,13 @@ interface Props {
   description: string;
 }
 
-const Heading = ({ title, description }: Props) => {
+const Header = ({ title, description }: Props) => {
   return (
     <div>
       <h2 className="text-3xl font-bold tracking-tight">{title}</h2>
-      <p className="text-muted-foreground ml-1 text-sm">{description}</p>
+      <p className="ml-1 text-sm text-muted-foreground">{description}</p>
     </div>
   );
 };
 
-export default Heading;
+export default Header;

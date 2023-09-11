@@ -12,8 +12,13 @@ export default function SettingsPage() {
     status: filter.status.label,
   }));
   return (
-    <div className="mt-4">
-      <DataTable columns={columns} data={formattedData} />
+    <div className="mt-4 flex w-full justify-between gap-10">
+      <div className="w-1/2">
+        <DataTable columns={columns} data={formattedData} />
+      </div>
+      <div className="w-1/2">
+        <DataTable columns={columns} data={formattedData} />
+      </div>
     </div>
   );
 }
